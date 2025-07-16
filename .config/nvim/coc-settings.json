@@ -1,0 +1,14 @@
+{
+  "suggest.noselect": false,
+  "suggest.enablePreview": true,
+  "suggest.enablePreselect": false,
+  "suggest.disableKind": true,
+  "languageserver": {
+    "csharp": {
+      "command": "csharp-ls",
+      "filetypes": ["cs"],
+	  "rootPatterns": ["*.csproj", "*.sln"]
+    }
+  }
+}
+

@@ -1,0 +1,68 @@
+@import "colors.css";
+
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "JetBrains Mono", "Font Awesome 6 Free", "Font Awesome 6 Brands", monospace;
+  font-size: 12px;
+  min-height: 0px;
+  transition: ease-in-out 0.2s;
+}
+
+window#waybar {
+  background: @bg0;
+  color: @text;
+}
+
+#workspaces button {
+  padding: 3px;
+  border-radius: 30px;
+  background: transparent;
+  color: @text;
+}
+
+#workspaces button.active {
+  background: @accent;
+}
+
+#workspaces button:hover {
+  background: #5f95a1;
+}
+
+tooltip {
+  background: @tip;
+  border-radius: 10px;
+  border: 3px solid @bg1;
+}
+
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#tray,
+#custom-power,
+#language,
+#custom-cava,
+#window {
+  background: @bg1;
+  color: @text;
+  padding: 0px 10px;
+  margin: 7px 4px;
+  border-radius: 5px;
+}
+
+#language {
+	font-size: 14px;
+}
+
+#custom-power {
+  background: @accent;
+  color: @bg1;
+  font-size: 15px;
+}
+
+#tray {
+  padding: 0px 10px;
+  margin-right: 6px;
+}
+

@@ -1,0 +1,94 @@
+window {
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: "JetBrains Mono", "Font Awesome 6 Free", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+button {
+    background-color: rgba(40, 44, 52, 0.85);
+    border-radius: 16px;
+    border: 2px solid #61afef;
+    padding: 20px;
+    min-width: 120px;
+    min-height: 120px;
+    transition: background 0.2s, border 0.2s;
+}
+
+button:hover {
+    background-color: rgba(97, 175, 239, 0.3);
+    border: 2px solid #c678dd;
+}
+
+button:focus {
+    border: 2px solid #98c379;
+}
+
+label {
+    margin-top: 10px;
+}
+
+
+window {
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: "JetBrains Mono", sans-serif;
+}
+
+button {
+    background-color: rgba(40, 44, 52, 0.85);
+    border-radius: 16px;
+    border: 2px solid #61afef;
+    margin: 20px;
+    padding: 20px;
+    min-width: 120px;
+    min-height: 120px;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    background-size: 48px;
+    color: white;
+    font-size: 16px;
+    transition: background 0.2s, border 0.2s;
+}
+
+button:hover {
+    background-color: rgba(97, 175, 239, 0.2);
+    border: 2px solid #c678dd;
+}
+
+button:focus {
+    border: 2px solid #98c379;
+}
+
+label {
+    margin-top: 80px;
+    text-shadow: 1px 1px 2px black;
+}
+
+#lock {
+    background-image: url("icons/system-lock-screen.svg");
+}
+#hibernate {
+    background-image: url("icons/system-hibernate.svg");
+}
+#logout {
+    background-image: url("icons/system-log-out.svg");
+}
+#shutdown {
+    background-image: url("icons/system-shutdown.svg");
+}
+#suspend {
+    background-image: url("icons/system-suspend.svg");
+}
+#reboot {
+    background-image: url("icons/system-reboot.svg");
+}
+
+#lock,
+#hibernate,
+#logout,
+#shutdown,
+#suspend,
+#reboot {
+	background-position: center;
+}
+
