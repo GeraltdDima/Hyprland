@@ -1,4 +1,4 @@
-My 2 second Hyprland config!!! -----
+#My 2 second Hyprland config!!! -----
 
 <img width="1920" height="1080" alt="20250712_00h13m25s_grim" src="https://github.com/user-attachments/assets/63f31908-1137-499f-a154-dfce7505822a" />
 
